@@ -1,0 +1,241 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fff4d5;
+}
+
+header {
+    background-color: rgb(255, 137, 12);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+main {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+main h2 {
+    color: rgb(232, 105, 1);
+    margin-bottom: 20px;
+}
+
+fieldset {
+    border: 1px solid #e0d2b0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #faf6f6;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff890c;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+
+.opcion {
+    font-weight: normal;
+    background-color: #ffd190;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b4b4b4;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #ffebcf;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #ff890c;
+    outline: none;
+    background-color: #fce8c4;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #ff890c;
+    margin-right: 8px;
+}
+
+input[type="file"] {
+    background-color: #ffebcf;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.btn-enviar {
+    background-color: rgb(255, 137, 12);
+    color: rgb(255, 239, 211);
+    font-weight: bold;
+    border: 1px solid rgb(255, 137, 12);
+    border-radius: 6px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    background-color: rgb(200, 63, 0);
+}
+
+.aviso {
+    background-color: #ffd190;
+    border-left: 6px solid rgb(200, 63, 0);
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ticket {
+    background-color: #faf6f6;
+    border: 2px dashed rgb(255, 137, 12);
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.ticket h2 {
+    text-align: center;
+}
+
+.ticket img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.ticket p {
+    margin-bottom: 8px;
+}
+
+.ticket hr {
+    border: none;
+    border-top: 1px solid #e0d2b0;
+    margin: 15px 0;
+}
+
+.ticket h3 {
+    color: rgb(232, 105, 1);
+    text-align: right;
+}
+
+a {
+    color: #ff890c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(200, 63, 0);
+}
+
+/* ---- Añadido en la V2 ---- */
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b4b4b4;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #ffebcf;
+}
+
+input[type="password"]:focus {
+    border-color: #ff890c;
+    outline: none;
+    background-color: #fce8c4;
+}
+
+header .enlace-header {
+    color: white;
+    text-decoration: underline;
+}
+
+.btn-secundario {
+    background-color: transparent;
+    color: rgb(232, 105, 1);
+    font-weight: bold;
+    border: 1px solid rgb(255, 137, 12);
+    border-radius: 6px;
+    padding: 10px 20px;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+}
+
+.btn-secundario:hover {
+    background-color: #ffd190;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #faf6f6;
+    font-size: 14px;
+}
+
+th {
+    background-color: rgb(255, 137, 12);
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #e0d2b0;
+}
+
+.btn-tabla {
+    background-color: rgb(255, 137, 12);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.btn-tabla:hover {
+    background-color: rgb(200, 63, 0);
+}
